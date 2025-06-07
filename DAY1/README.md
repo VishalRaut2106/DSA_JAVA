@@ -4,7 +4,8 @@
 
 ## byte → short → int → long → float → double
 ## char → int → long → float → double
-> [!IMPORTANT]!!! NO CAST NEEDE
+> [!IMPORTANT]
+!!! NO CAST NEEDE
 
 ---
 
