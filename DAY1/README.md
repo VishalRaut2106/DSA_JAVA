@@ -4,13 +4,14 @@
 
 ## byte → short → int → long → float → double
 ## char → int → long → float → double
-!!! NO CAST NEEDE
+> [!IMPORTANT]!!! NO CAST NEEDE
 
 ---
 
 
 ## double → float → long → int → short → byte
 ## int → char (and vice versa)
+> [!IMPORTANT]
 !!! CAST NEEDED
 
 ---
