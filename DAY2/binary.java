@@ -1,5 +1,5 @@
 import java.util.*;
-public class typeCasting {
+public class Binary {
    public static void main(String[] args) {
    
    int A = 10;
