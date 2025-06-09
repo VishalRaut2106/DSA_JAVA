@@ -7,7 +7,7 @@ public class Binary {
 
    System.out.println("addition: "+(A+B));
    System.out.println("subtract: "+(A-B));
-   System.out.println("multiplication: "+(A*B));
+   System.out.println("multiplication:"+(A*B));
    System.out.println("division: "+(A/B));
    System.out.println("reminder: "+(A%B));
    } 
