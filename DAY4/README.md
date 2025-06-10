@@ -56,4 +56,4 @@ do-while ek aisa loop hai jo code ko kam se kam ek baar chalata hai, uske baad c
 to exit the loop
 
 ## Continue Statement
-to skip an iteration
+to skip an iteration  (run skip run)
