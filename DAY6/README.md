@@ -16,3 +16,7 @@ returnType  name (type param1 , type param2){
     // body
     return statement;
 }
+```
+
+
+> java always calls by value , every time variable ki copy jati hai
