@@ -1,7 +1,7 @@
-import java.util.*;
-public class typeCasting {
+// import java.util.*;
+public class unary {
    public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+   //  Scanner sc = new Scanner(System.in);
      int a =5;
      int b = ++a ;
      System.out.println("by using pre increament");
