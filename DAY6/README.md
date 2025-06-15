@@ -82,3 +82,35 @@ Total      = 9
 | 6         | `100000`           | `111111`          | `32` to `63`    |
 | 8         | `10000000`         | `11111111`        | `128` to `255`  |
 | 10        | `1000000000`       | `1111111111`      | `512` to `1023` |
+
+
+
+## Decimal to  Binary
+
+Decimal number ko repeatedly 2 se divide karte jao aur har baar ka remainder likh lo.
+
+Last remainder ko sabse pehle likhna hota hai (reverse order)
+
+for n = 13
+| Step | Decimal ÷ 2 | Quotient | Remainder |
+| ---- | ----------- | -------- | --------- |
+| 1    | 13 ÷ 2      | 6        | 1         |
+| 2    | 6 ÷ 2       | 3        | 0         |
+| 3    | 3 ÷ 2       | 1        | 1         |
+| 4    | 1 ÷ 2       | 0        | 1         |
+From bottom to top → 1 1 0 1
+
+
+
+
+# Scope
+
+"Scope ka matlab hota hai variable ya method ka visibility area, jahan tak wo accessible ya usable hai."
+
+| Type                      | Kya hota hai                                           |
+| ------------------------- | ------------------------------------------------------ |
+| **1. Local Scope**        | Method/Block ke andar declared variables.              |
+| **2. Instance Scope**     | Class ke andar, but methods ke bahar — non-static var. |
+| **3. Static/Class Scope** | Static variables — pura class mein accessible.         |
+| **4. Block Scope**        | Loops / if-else blocks ke andar declared variables.    |
+
