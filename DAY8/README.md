@@ -3,8 +3,8 @@
 + static type
 ```java
  // Different ways to declare arrays
-int[] numbers1;      // Preferred style
-int numbers2[];      // Valid but less conventional
+int[ ] numbers1;      // Preferred style
+int numbers2[ ];      // Valid but less conventional
 ```
 
 main funcion get update if pass an argument in small function
