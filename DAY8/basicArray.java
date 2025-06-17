@@ -2,7 +2,7 @@ import java.util.*;
 public class basicArray{
 
     public static void main(String[] args) {
-        int num[] = new int [50];
+        // int num[] = new int [50];
         // System.out.println(marks);
 
         // Input
