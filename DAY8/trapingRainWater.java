@@ -12,21 +12,20 @@ public class trapingRainWater {
 
         // calculate right max boundary -array
         int rightmax[] = new int[n];
-        rightmax[n -1]= height [ n -1];
-        for (int i=n-2; i>=0 ; i--){
-            rightmax[i] = Math.max(height[i], rightmax[i+1]);
+        rightmax[n - 1] = height[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            rightmax[i] = Math.max(height[i], rightmax[i + 1]);
         }
-        int  trappedeWater = 0;
+        int trappedeWater = 0;
         // loop
-            for(int i=0; i<n;i++){
-                // water lavele = min (leftmax , rightmax)
-                int waterLevel = Math.min( leftMax[i],rightmax[i]);
-                    // trapped water = water level - height[i]
-                    trappedeWater += waterLevel - height[i] ;
-                
-                
-                }
-                return  trappedeWater;
+        for (int i = 0; i < n; i++) {
+            // water lavele = min (leftmax , rightmax)
+            int waterLevel = Math.min(leftMax[i], rightmax[i]);
+            // trapped water = water level - height[i]
+            trappedeWater += waterLevel - height[i];
+
+        }
+        return trappedeWater;
     }
 
     public static void main(String[] args) {
@@ -35,6 +34,5 @@ public class trapingRainWater {
 
     }
 }
-
 
 // 11
