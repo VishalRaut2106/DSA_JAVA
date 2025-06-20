@@ -1,6 +1,6 @@
 /*
  * @lc app=leetcode id=1 lang=java
- *
+ 
  * [1] Two Sum
  */
 
