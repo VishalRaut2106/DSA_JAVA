@@ -1,7 +1,7 @@
 
 public class trapingRainWater {
 
-    public static int Trappingwater(int height[]) {
+    public static int trappingwater(int height[]) {
         int n = height.length;
         // calculate left max boundary - array form , (helper Array)
         int leftMax[] = new int[n];
@@ -29,8 +29,8 @@ public class trapingRainWater {
     }
 
     public static void main(String[] args) {
-        int height[] = { 4, 2, 0, 6, 3, 2, 5 };
-        System.out.println(Trappingwater(height));
+        int height[] = {0,1,0,2,1,0,1,3,2,1,2,1 };
+        System.out.println(trappingwater(height));
 
     }
 }
